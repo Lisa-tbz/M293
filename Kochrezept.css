@@ -1,0 +1,84 @@
+body {
+  background-color: rgb(60, 59, 59);
+}
+
+h1 {
+  color: rgb(53, 56, 64);
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bold;
+  font-style: italic;
+  box-sizing: border-box;
+  height: 50%;
+  padding: 20px;
+  border-width: 20px;
+  border-style: solid;
+  border-color: rgb(87, 98, 112);
+  margin: 20px;
+  background-color: rgb(142, 152, 204);
+}
+
+h3 {
+  color: rgb(142, 152, 204);
+  text-align: center;
+  font-size: 1.1;
+}
+
+li {
+  text-align: left;
+  font-size: 1.1rem;
+  color: rgb(53, 56, 64);
+}
+
+h4 {
+  font-size: 1.1rem;
+  color: rgb(142, 152, 204);
+}
+ol {
+  box-sizing: border-box;
+  height: 50%;
+  padding: 20px;
+  border-width: 20px;
+  border-style: solid;
+  border-color: rgb(87, 98, 112);
+  margin: 20px;
+  background-color: rgb(142, 152, 204);
+}
+h2 {
+  color: rgb(142, 152, 204);
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.links {
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+table {
+  text-align: left;
+  font-size: 1.1rem;
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 40%;
+  color: rgb(142, 152, 204);
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+a {
+  color: rgb(142, 152, 204);
+}
+
+img {
+  margin-right: 200px;
+}

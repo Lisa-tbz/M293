@@ -1,0 +1,53 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 2rem;
+  background-color: rgb(104, 120, 131);
+  text-align: center;
+}
+
+header h1 {
+  margin-bottom: 3rem;
+  font-size: 2rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+article {
+  background-color: rgb(207, 214, 218);
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.2s ease;
+}
+
+article:hover {
+  transform: scale(1.02);
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+h2 {
+  margin: 0.5rem 0 0;
+  font-size: 1.1rem;
+}
+
+p {
+  margin: 0.2rem 0 1rem;
+  color: #555;
+  font-size: 0.9rem;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}

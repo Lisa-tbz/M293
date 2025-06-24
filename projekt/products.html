@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - Web Shop</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <div class="cart-icon">🛒</div>
+                <div class="logo-text">Web Shop</div>
+            </div>
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html" class="active">Products</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="products">
+            <div class="filter-section">
+                <h2>Filter Products</h2>
+                <select class="category-filter">
+                    <option value="all">All Categories</option>
+                    <option value="electronics">Electronics</option>
+                    <option value="clothing">Clothing</option>
+                    <option value="books">Books</option>
+                    <option value="home">Home & Living</option>
+                </select>
+            </div>
+
+            <div class="product-grid">
+                <!-- Sample Product Cards -->
+                <a href="product-detail.html?product=smartphone" class="product-card" data-category="electronics">
+                    <div class="product-content">
+                        <img src="https://www.racunalniske-novice.com/wp-content/uploads/2024/09/Apple-iPhone-16-Pro-hero-240909_inline-1.jpg.large_-1.jpg" alt="Smartphone">
+                        <h3>Latest Smartphone</h3>
+                        <p class="price">$499.99</p>
+                        <p class="description">High-performance smartphone with advanced features</p>
+                    </div>
+                    <button class="add-to-cart">Add to Cart</button>
+                </a>
+                <a href="product-detail.html?product=tshirt" class="product-card" data-category="clothing">
+                    <div class="product-content">
+                        <img src="https://www.careofcarl.ch/bilder/artiklar/zoom/16982611r_1.jpg?m=1671196060" alt="T-Shirt">
+                        <h3>Comfort T-Shirt</h3>
+                        <p class="price">$29.99</p>
+                        <p class="description">Soft cotton t-shirt in various colors</p>
+                    </div>
+                    <button class="add-to-cart">Add to Cart</button>
+                </a>
+                <a href="product-detail.html?product=book" class="product-card" data-category="books">
+                    <div class="product-content">
+                        <img src="https://images.thalia.media/-/BF750-750/211003c2215643b3af3766648b1a5403/harry-potter-1-and-the-philosopher-s-stone-gebundene-ausgabe-j-k-rowling-englisch.jpeg" alt="Bestseller">
+                        <h3>Bestseller Book</h3>
+                        <p class="price">$19.99</p>
+                        <p class="description">Award-winning novel by renowned author</p>
+                    </div>
+                    <button class="add-to-cart">Add to Cart</button>
+                </a>
+                <a href="product-detail.html?product=lamp" class="product-card" data-category="home">
+                    <div class="product-content">
+                        <img src="https://m.media-amazon.com/images/I/713iJYS8jDL.jpg" alt="Lamp">
+                        <h3>Modern Desk Lamp</h3>
+                        <p class="price">$39.99</p>
+                        <p class="description">Energy-efficient LED desk lamp</p>
+                    </div>
+                    <button class="add-to-cart">Add to Cart</button>
+                </a>
+                <a href="product-detail.html?product=laptop" class="product-card" data-category="electronics">
+                    <div class="product-content">
+                        <img src="https://cf-images.dustin.eu/cdn-cgi/image/fit=contain,format=auto,quality=75,width=828,fit=contain/image/d2000010011197891/microsoft-surface-laptop-go-3-core-i5-16gb-512gb-124.jpeg" alt="Laptop">
+                        <h3>Premium Laptop</h3>
+                        <p class="price">$1,299.99</p>
+                        <p class="description">Powerful laptop for professionals</p>
+                    </div>
+                    <button class="add-to-cart">Add to Cart</button>
+                </a>
+                <a href="product-detail.html?product=jeans" class="product-card" data-category="clothing">
+                    <div class="product-content">
+                        <img src="https://static.pullandbear.net/assets/public/0af0/46aa/8be1404892d2/a035fa55ac6a/03687309802-a6m/03687309802-a6m.jpg?ts=1735830871188&w=1082&f=auto" alt="Jeans">
+                        <h3>Baggy Jeans</h3>
+                        <p class="price">$49.99</p>
+                        <p class="description">Stylish baggy jeans</p>
+                    </div>
+                    <button class="add-to-cart">Add to Cart</button>
+                </a>
+                <a href="product-detail.html?product=notebook" class="product-card" data-category="books">
+                    <div class="product-content">
+                        <img src="https://cdn.officeworld.ch/bilder/groesser/adoc-business-spiralheft-a5-kariert-5-mm-braun-5411028362356_01_ow.jpg" alt="Notebook">
+                        <h3>Business Notebook</h3>
+                        <p class="price">$24.99</p>
+                        <p class="description">Premium leather notebook</p>
+                    </div>
+                    <button class="add-to-cart">Add to Cart</button>
+                </a>
+                <a href="product-detail.html?product=coffee" class="product-card" data-category="home">
+                    <div class="product-content">
+                        <img src="https://static07.galaxus.com/productimages/1/3/6/7/3/7/5/4/1/4/6/0/2/3/7/3/4/7/0/dd1896a4-9d62-4eeb-8a8f-1b0bd19660a1.jpg_720.jpeg" alt="Coffee Machine">
+                        <h3>Smart Coffee Machine</h3>
+                        <p class="price">$199.99</p>
+                        <p class="description">Automatic coffee machine with app control</p>
+                    </div>
+                    <button class="add-to-cart">Add to Cart</button>
+                </a>
+                <a href="product-detail.html?product=shoes" class="product-card" data-category="clothing">
+                    <div class="product-content">
+                        <img src="https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/aa0bd45abac541d29ff40b492e15cfa4_9366/Runfalcon_5_Running_Shoes_Black_IH7758_HM1.jpg" alt="Running Shoes">
+                        <h3>Running Shoes</h3>
+                        <p class="price">$129.99</p>
+                        <p class="description">Comfortable running shoes for all terrains</p>
+                    </div>
+                    <button class="add-to-cart">Add to Cart</button>
+                </a>
+                <a href="product-detail.html?product=tablet" class="product-card" data-category="electronics">
+                    <div class="product-content">
+                        <img src="https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/ipad-finish-select-202503-silver-wifi_FMT_WHH?wid=1280&hei=720&fmt=p-jpg&qlt=80&.v=aHYyeWZ6TVBzTWw5WlZ2bFJCZno2aG1NVnhJaVErcFhXcDJFUzZhbVJBcUs1Y3FhVmdUUHEzOFNOVmNXd2trNmwrYlNkK0J5ZDZzOExOSm1DaDV3L3pBSHlqQStCOGVBOUJkSkVqU0hLTkFyaVJuRXFRckpaTUtDUkZ1YloyemdmbW94YnYxc1YvNXZ4emJGL0IxNFp3&traceId=1" alt="Tablet">
+                        <h3>Ipad</h3>
+                        <p class="price">$799.99</p>
+                        <p class="description">High-performance tablet with large display</p>
+                    </div>
+                    <button class="add-to-cart">Add to Cart</button>
+                </a>
+                <a href="product-detail.html?product=perfume" class="product-card" data-category="home">
+                    <div class="product-content">
+                        <img src="https://www.chanel.com/images//t_one/t_fragrance//q_auto:good,f_auto,fl_lossy,dpr_1.1/w_1920/bleu-de-chanel-parfum-spray-3-4fl-oz--packshot-default-107180-9564892200990.jpg" alt="Perfume">
+                        <h3>Bleu de Chanel Perfume</h3>
+                        <p class="price">$129.99</p>
+                        <p class="description">Classic fragrance for men and women</p>
+                    </div>
+                    <button class="add-to-cart">Add to Cart</button>
+                </a>
+                <a href="product-detail.html?product=speaker" class="product-card" data-category="electronics">
+                    <div class="product-content">
+                        <img src="https://api.media-line.ch/site/assets/files/4392/beosound_2_3rd_gen__0023.1200x0.png" alt="Wireless Speaker">
+                        <h3>Beosound 2</h3>
+                        <p class="price">$1,499.99</p>
+                        <p class="description">Premium wireless speaker with exceptional sound quality</p>
+                    </div>
+                    <button class="add-to-cart">Add to Cart</button>
+                </a>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+
+</body>
+</html>

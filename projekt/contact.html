@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Web Shop</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <div class="cart-icon">🛒</div>
+                <div class="logo-text">Web Shop</div>
+            </div>
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="contact">
+            <h2>Our Team</h2>
+            <div class="team-grid">
+                
+                <div class="team-member">
+                    <img src="https://noseryoung.ch/wp-content/uploads/2024/08/Daphne_McNamara.jpg" alt="Team Member 2">
+                    <h3>Daphne McNamara</h3>
+                    <p>Product Manager</p>
+                </div>
+                <div class="team-member">
+                    <img src="https://noseryoung.ch/wp-content/uploads/2024/08/Lisa_Meergans.jpg" alt="Team Member 1">
+                    <h3>Lisa Meergans</h3>
+                    <p>CEO & Founder</p>
+                </div>
+                <div class="team-member">
+                    <img src="https://noseryoung.ch/wp-content/uploads/2024/08/Elif-1.jpg" alt="Team Member 2">
+                    <h3>Elif Berra Canmaya</h3>
+                    <p>Media and influence Manager</p>
+                </div>
+                <div class="team-member">
+                    <img src="https://noseryoung.ch/wp-content/uploads/2024/08/Jara_de_Roji-1.jpg" alt="Team Member 2">
+                    <h3>Jara de Rooji</h3>
+                    <p>Technical Lead</p>
+                </div>
+               
+            </div>
+
+            <h2>Contact Us</h2>
+            <form class="contact-form">
+                <div class="form-group">
+                    <label for="name">Your Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="subject">Subject:</label>
+                    <select id="subject" name="subject" required>
+                        <option value="">Select a subject</option>
+                        <option value="general">General Inquiry</option>
+                        <option value="order">Order Status</option>
+                        <option value="support">Technical Support</option>
+                        <option value="team">Team</option>
+                        <option value="feedback">Feedback</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="submit-button">Send Message</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>

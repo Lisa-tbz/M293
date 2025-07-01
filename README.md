@@ -6,40 +6,40 @@ Im Rahmen meines Webprojekts habe ich eine **Produktübersichtsseite mit einer F
 
 ---
 
-## Aufbau der KI-Unterstützung
+## Aufbau der KI Unterstützung
 
 ### Zentrale Komponenten (am Beispiel Windsurf):
 
-- **Prompt-Eingabe:** Aufgaben werden in natürlicher Sprache formuliert (z. B. „Erstelle ein responsives Grid-Layout in CSS“).
-- **KI-Modul:** Die Eingabe wird an ein Sprachmodell (z. B. GPT-4.5) weitergegeben.
+- **Prompt Eingabe:** Aufgaben werden in natürlicher Sprache formuliert (z. B. „Erstelle ein responsives Grid-Layout in CSS“).
+- **KI Modul:** Die Eingabe wird an ein Sprachmodell (z. B. GPT-4.5) weitergegeben.
 - **Codeausgabe:** Die KI liefert direkt ausführbaren HTML-/CSS-/JS-Code.
-- **Live-Vorschau:** Änderungen sind sofort im Browser sichtbar.
+- **Live Vorschau:** Änderungen sind sofort im Browser sichtbar.
 
 ---
 
-## Eingesetzte KI-Tools und ihr Nutzen
+## Eingesetzte KI Tools und ihr Nutzen
 
-### 🔹 ChatGPT (OpenAI)
+### ChatGPT (OpenAI)
 
 | Aufgabe                           | Unterstützung durch KI                                                                 |
 |----------------------------------|----------------------------------------------------------------------------------------|
 | Filterfunktion entwickeln         | Erklärung der clientseitigen Umsetzung mit JavaScript                                 |
-| HTML-Struktur prüfen              | Feedback zur Eignung der Struktur für dynamische Filter                               |
-| JavaScript-Logik generieren       | Codebeispiel für Kategorie-Filterung mit `data-category`                              |
-| Lösungsvarianten bewerten        | Vergleich zwischen HTML-Filterbarkeit vs. JavaScript-gesteuerter Logik                |
+| HTML Struktur prüfen              | Feedback zur Eignung der Struktur für dynamische Filter                               |
+| JavaScript Logik generieren       | Codebeispiel für Kategorie Filterung mit `data-category`                              |
+| Lösungsvarianten bewerten        | Vergleich zwischen HTML Filterbarkeit vs. JavaScript gesteuerter Logik                |
 
-### 🔹 Windsurf
+### Windsurf
 
-Ein Online-Editor mit integrierter KI, der HTML, CSS und Markdown unterstützt – inkl. direkter Live-Vorschau.
+Ein Online-Editor mit integrierter KI, der HTML, CSS und Markdown unterstützt, inkl. direkter Live-Vorschau.
 
 **Einsatz im Projekt:**
 - HTML/CSS-Snippets generieren lassen
 - Struktur direkt testen und verändern
 
-### 🔹 Cursor (IDE mit KI)
+### Cursor (IDE mit KI)
 
-- Autovervollständigung und Inline-Vorschläge
-- Schnelle Anpassung vorhandener JS-Funktionen
+- Autovervollständigung und Inline Vorschläge
+- Schnelle Anpassung vorhandener JS Funktionen
 - Erklärungen direkt im Codebereich
 
 ---
@@ -49,11 +49,11 @@ Ein Online-Editor mit integrierter KI, der HTML, CSS und Markdown unterstützt �
 1. Wie kann ich Produkte nach Kategorie filtern mit JavaScript ohne Server?
 2. Wie sähe das HTML dazu aus?
 3. Ich nutze Option 2, kannst du mir helfen mit JavaScript?
-4. Ich habe nur HTML, CSS, JS – kein Backend – was ist sinnvoll?
+4. Ich habe nur HTML, CSS, JS, kein Backend, was ist sinnvoll?
 
-## Vorteile der KI-Nutzung in der Webentwicklung
+## Vorteile der KI Nutzung in der Webentwicklung
 **Zeitersparnis:** Layouts, Filterfunktionen oder Effekte werden deutlich schneller umgesetzt.  
-**Lernhilfe:** Die KI erklärt Codezeilen – ideal zum besseren Verständnis.  
+**Lernhilfe:** Die KI erklärt Codezeilen, ideal zum besseren Verständnis.  
 **Zugänglichkeit:** Auch komplexe Funktionen lassen sich mit einfachen Prompts erzeugen.  
 **Konsistenz:** Moderne Standards wie Responsive Design oder Barrierefreiheit werden berücksichtigt.  
 
@@ -62,9 +62,9 @@ Ein Online-Editor mit integrierter KI, der HTML, CSS und Markdown unterstützt �
 ## Nachteile und Risiken
 
 **Fehlerpotenzial:** Die KI kann unvollständigen oder veralteten Code vorschlagen.  
-**Blackbox-Charakter:** Oft ist unklar, warum ein Code-Vorschlag so generiert wurde.  
+**Blackbox-Charakter:** Oft ist unklar, warum ein Code Vorschlag so generiert wurde.  
 **Lernverzögerung:** Übermäßige Nutzung kann das eigene Problemlösungsdenken bremsen.  
-**Datenschutz:** Eingaben an KI-Dienste werden extern verarbeitet – sensible Daten sollten vermieden werden.  
+**Datenschutz:** Eingaben an KI Dienste werden extern verarbeitet – sensible Daten sollten vermieden werden.  
 
 ---
 
@@ -90,7 +90,7 @@ Gleichzeitig bleibt es wichtig, die Vorschläge **kritisch zu prüfen** und sich
 
 ## Ausblick
 
-Zukünftig könnten KI-gestützte IDEs komplette Webprojekte automatisch generieren – inklusive:
+Zukünftig könnten KI gestützte IDEs komplette Webprojekte automatisch generieren, inklusive:
 
 - responsivem Design  
 - SEO-Optimierung  

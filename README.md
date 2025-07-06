@@ -57,7 +57,6 @@ Ein Online-Editor mit integrierter KI, der HTML, CSS und Markdown unterstützt, 
 **Zugänglichkeit:** Auch komplexe Funktionen lassen sich mit einfachen Prompts erzeugen.  
 **Konsistenz:** Moderne Standards wie Responsive Design oder Barrierefreiheit werden berücksichtigt.  
 
----
 
 ## Nachteile und Risiken
 
@@ -79,12 +78,19 @@ Ein Online-Editor mit integrierter KI, der HTML, CSS und Markdown unterstützt, 
 
 ---
 
+## Eigene Erfahrung
+Ich finde es wichtig, dass wir lernen mit KI umzugehen. Wichtig hier ist es, sich bewusst zu sein, dass man sich nicht aich die KI verlassen sollte. Es ist essenziell, dass man versteht, was man macht. Des öfteren hatte ich Probleme und die KI's konnten mir nicht helfen.
+
+Am meisten hat mir die KI geholfen dass die Design anzupassen. Hier habe ich die Hilfe von Windsurf am besten gefunden. Was ich gut gefunfen habe ist, dass beschrieben wird, was genau verändert wird und man selbt entscheiden kann, ob man die Veänderungne haben möchte oder nicht. Dies lässt einen besseren Einblick zu. Im Gegensatz zu ChatGPT verändert Windsurf direkt in der IDE den Code, was das ganze vereinfacht. Meine Meinung ist: es ist gut dass wir lernen damit umzugehen, aber ich werde es trotzdem versuchen so wenig wie möglich zu nutzen so lange ich lerne, um alles besser zu verstehen. 
+
+---
+
 ## Fazit
 
-Die Integration von Künstlicher Intelligenz in Entwicklungsumgebungen ist besonders für Lernende ein grosser Vorteil.  
+Künstliche Intelligenz in Entwicklungsumgebungen ist ein grosser Vorteil.  
 Sie hilft dabei, schneller Ergebnisse zu erzielen, Programmierlogik besser zu verstehen und komplexe Aufgaben in einfache Einzelschritte zu zerlegen.  
 
-Gleichzeitig bleibt es wichtig, die Vorschläge **kritisch zu prüfen** und sich nicht blind darauf zu verlassen.
+Gleichzeitig bleibt es wichtig, die Vorschlägek kritisch zu prüfen und sich nicht blind darauf zu verlassen. Bei mir zum Beispiel, half es viele verschiedene Dinge auszutesten, die ich sonst zeitlich nicht geschafft hätte. Mir ist aber auch bewusst geworden, obwohl man KI viel einsetzen kann, gibt es viele Situationen bei dem man sich nicht nur auf die KI verlassen kann. Oft konnte die KI den Fehler nicht finden und wenn man es selbst kann, dann ist es auch einfacher schnell etwas genau anzupassen wie man es will. Mir persönlich hilft es, Themen leichter beizubringen. 
 
 ---
 
@@ -96,6 +102,6 @@ Zukünftig könnten KI gestützte IDEs komplette Webprojekte automatisch generie
 - SEO-Optimierung  
 - Barrierefreiheit  
 
-Der Mensch wird dann **mehr zum Steuernden als zum Codierenden**.  
-**Umso wichtiger wird es, die Grundlagen selbst zu verstehen.**
+Der Mensch wird dann mehr zum Steuernden als zum Codierenden.  
+Umso wichtiger wird es, die Grundlagen selbst zu verstehen.
 

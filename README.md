@@ -2,7 +2,7 @@
 
 ## Zielsetzung
 
-Im Rahmen meines Webprojekts habe ich eine **Produktübersichtsseite mit einer Filterfunktion nach Kategorien** entwickelt – **ausschließlich mit HTML, CSS und JavaScript**, ohne Backend. Zur Unterstützung nutzte ich verschiedene KI-Tools: **ChatGPT (OpenAI)**, **Windsurf** und **Cursor**, um die technische Umsetzung effizienter und verständlicher zu gestalten.
+Im Rahmen meines Webprojekts habe ich eine Produktübersichtsseite mit einer Filterfunktion nach Kategorien entwickelt – ausschliesslich mit HTML, CSS und JavaScript, ohne Backend. Zur Unterstützung nutzte ich verschiedene KI-Tools: **ChatGPT (OpenAI)**, **Windsurf** und **Cursor**, um die technische Umsetzung effizienter und verständlicher zu gestalten.
 
 ---
 
@@ -63,7 +63,7 @@ Ein Online-Editor mit integrierter KI, der HTML, CSS und Markdown unterstützt, 
 
 **Fehlerpotenzial:** Die KI kann unvollständigen oder veralteten Code vorschlagen.  
 **Blackbox-Charakter:** Oft ist unklar, warum ein Code Vorschlag so generiert wurde.  
-**Lernverzögerung:** Übermäßige Nutzung kann das eigene Problemlösungsdenken bremsen.  
+**Lernverzögerung:** Übermässige Nutzung kann das eigene Problemlösungsdenken bremsen.  
 **Datenschutz:** Eingaben an KI Dienste werden extern verarbeitet – sensible Daten sollten vermieden werden.  
 
 ---
@@ -81,7 +81,7 @@ Ein Online-Editor mit integrierter KI, der HTML, CSS und Markdown unterstützt, 
 
 ## Fazit
 
-Die Integration von Künstlicher Intelligenz in Entwicklungsumgebungen ist besonders für Lernende ein großer Vorteil.  
+Die Integration von Künstlicher Intelligenz in Entwicklungsumgebungen ist besonders für Lernende ein grosser Vorteil.  
 Sie hilft dabei, schneller Ergebnisse zu erzielen, Programmierlogik besser zu verstehen und komplexe Aufgaben in einfache Einzelschritte zu zerlegen.  
 
 Gleichzeitig bleibt es wichtig, die Vorschläge **kritisch zu prüfen** und sich nicht blind darauf zu verlassen.

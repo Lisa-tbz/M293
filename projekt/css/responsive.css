@@ -86,6 +86,72 @@ main {
     height: 80px;
 }
 
+#main-image {
+    width: 100%;
+    max-height: 180px;
+    object-fit: cover;
+}
+
+/* ========== Tablet Styles ========== */
+@media screen and (min-width: 481px) {
+    .nav-menu {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .product-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .category-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .product-info {
+        display: flex;
+        gap: 15px;
+    }
+
+    .product-images {
+        flex: 0 0 250px;
+    }
+
+    .product-details {
+        flex: 1;
+    }
+
+    #main-image {
+        width: 100%;
+        max-height: 150px;
+        object-fit: cover;
+    }
+
+    .thumbnail {
+        height: 35px;
+    }
+
+    /* ========== Desktop Styles ========== */
+    @media screen and (min-width: 1024px) {
+        .product-info {
+            gap: 20px;
+        }
+
+        .product-images {
+            flex: 0 0 300px;
+        }
+
+        #main-image {
+            width: 100%;
+            max-height: 180px;
+            object-fit: cover;
+        }
+
+        .thumbnail {
+            height: 40px;
+        }
+    }
+}
+
 /* ========== Tablet Styles ========== */
 @media screen and (min-width: 481px) {
     .nav-menu {

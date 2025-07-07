@@ -34,6 +34,12 @@ https://www.figma.com/design/YOgxO310ArmG1L2GYCeQyk/Low-fi-Wireframe-Template--C
 - **Live Vorschau:** Änderungen sind sofort im Browser sichtbar.
 
 ---
+## Prompt-Strategien: Was hat funktioniert?
+
+- **Konkret statt allgemein:** „Schreibe einen JavaScript-Filter für Produkte mit `data-category`“ war hilfreicher als „Wie filtere ich Produkte?“
+- **Iteratives Vorgehen:** Oft musste ich mehrmals nachfragen oder Varianten anfordern, um zu einer passenden Lösung zu kommen.
+- **Code + Erklärung:** Prompts wie „Erkläre Schritt für Schritt, wie der Code funktioniert“ halfen beim Verständnis deutlich.
+---
 
 ## Eingesetzte KI Tools und ihr Nutzen
 
@@ -69,6 +75,62 @@ Ein Online-Editor mit integrierter KI, der HTML, CSS und Markdown unterstützt, 
 3. Ich nutze Option 2, kannst du mir helfen mit JavaScript?
 4. Ich habe nur HTML, CSS, JS, kein Backend, was ist sinnvoll?
 
+** Prompt:**  
+> Wie kann ich Produkte nach Kategorie filtern mit JavaScript ohne Server?
+
+** Antwort (HTML + JavaScript):**
+```html
+<!-- HTML -->
+<div class="product" data-category="shoes">Schuh 1</div>
+<div class="product" data-category="shirts">Shirt 1</div>
+<div class="product" data-category="shoes">Schuh 2</div>
+
+<button onclick="filterProducts('shoes')">Nur Schuhe</button>
+<button onclick="filterProducts('shirts')">Nur Shirts</button>
+<button onclick="filterProducts('all')">Alle anzeigen</button>
+```
+```javascript
+// JavaScript
+function filterProducts(category) {
+  const products = document.querySelectorAll('.product');
+  products.forEach(product => {
+    if (category === 'all' || product.dataset.category === category) {
+      product.style.display = 'block';
+    } else {
+      product.style.display = 'none';
+    }
+  });
+}
+
+```
+
+** Prompt:**  
+> Erkläre mir diesen JavaScript-Code zum Filtern von Produkten Zeile für Zeile.
+```javascript
+function filterProducts(category) {
+  const products = document.querySelectorAll('.product');
+  products.forEach(product => {
+    if (category === 'all' || product.dataset.category === category) {
+      product.style.display = 'block';
+    } else {
+      product.style.display = 'none';
+    }
+  });
+}
+```
+Erklärung:
+
+    function filterProducts(category) – Definiert eine Funktion mit dem Parameter category.
+
+    document.querySelectorAll('.product') – Wählt alle HTML-Elemente mit der Klasse product.
+
+    .forEach(product => { ... }) – Iteriert über alle ausgewählten Produkte.
+
+    if (category === 'all' || product.dataset.category === category) – Zeigt entweder alle Produkte an oder nur die mit passender Kategorie.
+
+    product.style.display = 'block' – Macht das Element sichtbar.
+
+    product.style.display = 'none' – Versteckt das Element.
 ## Vorteile der KI Nutzung in der Webentwicklung
 **Zeitersparnis:** Layouts, Filterfunktionen oder Effekte werden deutlich schneller umgesetzt.  
 **Lernhilfe:** Die KI erklärt Codezeilen, ideal zum besseren Verständnis.  
@@ -95,6 +157,26 @@ Ein Online-Editor mit integrierter KI, der HTML, CSS und Markdown unterstützt, 
 | **Copilot** | Leistungsstark im VS Code, ideal für Profis                   | Eingeschränkte Lernhilfe, teils zu technisch        |
 
 ---
+## Test: KI-Code vs. eigener Code
+
+Ich habe in zwei Fällen versucht, **denselben Code mit und ohne KI zu schreiben**:
+
+| Aufgabe                   | Ergebnis ohne KI                | Ergebnis mit KI                     |
+|---------------------------|----------------------------------|-------------------------------------|
+| Kategorie-Filter (JS)     | Hat funktioniert, dauerte lange | Schneller, aber weniger flexibel    |
+| Responsive Grid (CSS)     | Selbst entwickelt, solide       | KI war schneller, aber unübersichtlich |
+
+**Lernerfahrung:** Wenn ich es selbst schreibe, verstehe ich es besser. Die KI ist gut zum Starten, aber nicht zum reinen Kopieren.
+---
+
+## Zeitersparnis durch KI
+
+| Aufgabe                     | Manuell (geschätzt) | Mit KI (geschätzt) |
+|-----------------------------|---------------------|---------------------|
+| Grid-Layout aufbauen        | 90 Minuten          | 30 Minuten          |
+| Debugging eines Fehlers     | 30 Minuten          | KI konnte nicht helfen |
+
+Fazit: Besonders beim Aufbau von Layouts oder einfachen Logiken war die Zeitersparnis spürbar.
 
 ## Eigene Erfahrung
 Ich finde es wichtig, dass wir lernen mit KI umzugehen. Wichtig hier ist es, sich bewusst zu sein, dass man sich nicht aich die KI verlassen sollte. Es ist essenziell, dass man versteht, was man macht. Des öfteren hatte ich Probleme und die KI's konnten mir nicht helfen.

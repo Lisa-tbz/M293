@@ -1,4 +1,20 @@
 # Dokumentation: Einsatz von Künstlicher Intelligenz (KI) im Projekt „Web Shop“
+## Inhaltsverzeichnis
+
+1. [Zielsetzung](#zielsetzung)  
+2. [Aufbau der KI-Unterstützung](#aufbau-der-ki-unterstützung)  
+3. [Eingesetzte KI-Tools und ihr Nutzen](#eingesetzte-ki-tools-und-ihr-nutzen)  
+   - [ChatGPT (OpenAI)](#chatgpt-openai)  
+   - [Windsurf](#windsurf)  
+   - [Cursor (IDE mit KI)](#cursor-ide-mit-ki)  
+4. [Verwendete Prompts (Auswahl)](#verwendete-prompts-auswahl)  
+5. [Vorteile der KI-Nutzung in der Webentwicklung](#vorteile-der-ki-nutzung-in-der-webentwicklung)  
+6. [Nachteile und Risiken](#nachteile-und-risiken)  
+7. [Vergleich: KI-Tools für Webentwicklung](#vergleich-ki-tools-für-webentwicklung)  
+8. [Eigene Erfahrung](#eigene-erfahrung)  
+9. [Fazit](#fazit)  
+10. [Ausblick](#ausblick)  
+
 
 ## Zielsetzung
 

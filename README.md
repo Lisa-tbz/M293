@@ -19,6 +19,8 @@
 ## Zielsetzung
 
 Im Rahmen meines Webprojekts habe ich eine Produktübersichtsseite mit einer Filterfunktion nach Kategorien entwickelt – ausschliesslich mit HTML, CSS und JavaScript, ohne Backend. Zur Unterstützung nutzte ich verschiedene KI-Tools: **ChatGPT (OpenAI)**, **Windsurf** und **Cursor**, um die technische Umsetzung effizienter und verständlicher zu gestalten.
+Link zum Wireframe
+https://www.figma.com/design/YOgxO310ArmG1L2GYCeQyk/Low-fi-Wireframe-Template--Community-?node-id=583-963&m=dev&t=Qd4BVzPxRncs8qHT-1
 
 ---
 

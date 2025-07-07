@@ -107,8 +107,8 @@ if (orderForm) {
             description: "Soft cotton t-shirt in various colors. Available in multiple sizes and colors.",
             images: [
                 "https://www.careofcarl.ch/bilder/artiklar/zoom/16982611r_1.jpg?m=1671196060",
-                "https://reklatex.nl/wp-content/uploads/2024/01/STTU758-Black.jpg",
-                "https://www.youtube.com/watch?v=-TF0q114EVY"  // T-Shirt styling video
+                "https://army-shop.ch/media/2b/8c/6d/1722849012/Schwarz-Qualitaets-Shirt.jpg?ts=1722849012",
+                "https://www.youtube.com/embed/9Pbe4DyMQYw?si=I2ogwaWgSvHNHuGe"  // T-Shirt styling video
             ]
         },
         book: {
@@ -141,8 +141,8 @@ if (orderForm) {
             description: "Powerful laptop for professionals. Features latest processor and high-performance graphics.",
             images: [
                 "https://cf-images.dustin.eu/cdn-cgi/image/fit=contain,format=auto,quality=75,width=828,fit=contain/image/d2000010011197891/microsoft-surface-laptop-go-3-core-i5-16gb-512gb-124.jpeg",
-                "https://cf-images.dustin.eu/cdn-cgi/image/fit=contain,format=auto,quality=75,width=828,fit=contain/image/d2000010011197891/microsoft-surface-laptop-go-3-core-i5-16gb-512gb-124.jpeg",
-                "https://www.youtube.com/embed/85PzI64f01g"  // Laptop review video
+                "https://cdn.thewirecutter.com/wp-content/media/2024/11/cheapgaminglaptops-2048px-7981.jpg",
+                "https://www.youtube.com/embed/gVBELZqOOIE?si=N3FLdvIOiSDAtswN"  // Laptop review video
             ]
         },
         jeans: {
@@ -152,8 +152,8 @@ if (orderForm) {
             description: "Stylish baggy jeans made from premium denim. Available in multiple sizes.",
             images: [
                 "https://static.pullandbear.net/assets/public/0af0/46aa/8be1404892d2/a035fa55ac6a/03687309802-a6m/03687309802-a6m.jpg?ts=1635830871188&w=1082&f=auto",
-                "https://static.pullandbear.net/assets/public/0af0/46aa/8be1404892d2/a035fa55ac6a/03687309802-a6m/03687309802-a6m.jpg?ts=1635830871188&w=1082&f=auto",
-                "https://www.youtube.com/embed/45u6Y5Vv54I"  // Jeans styling video
+                "https://static.bershka.net/assets/public/163e/7802/296543e7b070/fe5fb6f10671/05341666400-p/05341666400-p.jpg?ts=1738328532160&w=1920",
+                "https://www.youtube.com/embed/g_l-ps0Hrv4?si=oMM_wXVLc7ZsefPT"  // Jeans styling video
             ]
         },
         notebook: {
@@ -163,8 +163,8 @@ if (orderForm) {
             description: "Premium leather notebook with 100 pages of high-quality paper.",
             images: [
                 "https://cdn.officeworld.ch/bilder/groesser/adoc-business-spiralheft-a5-kariert-5-mm-braun-5411028362356_01_ow.jpg",
-                "https://cdn.officeworld.ch/bilder/groesser/adoc-business-spiralheft-a5-kariert-5-mm-braun-5411028362356_01_ow.jpg",
-                "https://cdn.officeworld.ch/bilder/groesser/adoc-business-spiralheft-a5-kariert-5-mm-braun-5411028362356_01_ow.jpg"
+                "https://scooboo.in/cdn/shop/files/Solo_A5_Spiral_Notebook-Purple.png?v=1740644194&width=1214",
+                "https://www.youtube.com/embed/-j-krMa3P74?si=asJJlVSgKEDDlFKT"
             ]
         },
         coffee: {
@@ -174,8 +174,8 @@ if (orderForm) {
             description: "Automatic coffee machine with smart features and app control.",
             images: [
                 "https://static07.galaxus.com/productimages/1/3/6/7/3/7/5/4/1/4/6/0/2/3/7/3/4/7/0/dd1896a4-9d62-4eeb-8a8f-1b0bd19660a1.jpg_720.jpeg",
-                "https://static07.galaxus.com/productimages/1/3/6/7/3/7/5/4/1/4/6/0/2/3/7/3/4/7/0/dd1896a4-9d62-4eeb-8a8f-1b0bd19660a1.jpg_720.jpeg",
-                "https://www.youtube.com/embed/G9603dQ4QZc"  // Coffee machine video
+                "https://us.home-appliances.philips/cdn/shop/files/BaristaBrew_LongAmericano_1920x1080_pdp_1500x.jpg?v=1727984512",
+                "https://www.youtube.com/embed/KslSycorCcM?si=tUC3u8n_Um2hc2AI"  // Coffee machine video
             ]
         },
         shoes: {
@@ -185,8 +185,8 @@ if (orderForm) {
             description: "Comfortable running shoes with excellent cushioning and support.",
             images: [
                 "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/aa0bd45abac541d29ff40b492e15cfa4_9366/Runfalcon_5_Running_Shoes_Black_IH7758_HM1.jpg",
-                "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/aa0bd45abac541d29ff40b492e15cfa4_9366/Runfalcon_5_Running_Shoes_Black_IH7758_HM1.jpg",
-                "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/aa0bd45abac541d29ff40b492e15cfa4_9366/Runfalcon_5_Running_Shoes_Black_IH7758_HM1.jpg"
+                "https://hips.hearstapps.com/hmg-prod/images/running-shoes-005-68419d3f4376f.jpg?crop=0.668xw:1.00xh;0.213xw,0&resize=640:*",
+                "https://www.youtube.com/embed/r_so1tdB9fo?si=iKZLEqeWQKC0-83G"
             ]
         },
         tablet: {
@@ -196,8 +196,8 @@ if (orderForm) {
             description: "High-performance tablet with large display and advanced features.",
             images: [
                 "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/ipad-finish-select-202503-silver-wifi_FMT_WHH?wid=1280&hei=720&fmt=p-jpg&qlt=80&.v=aHYyeWZ6TVBzTWw5WlZ2bFJCZno2aG1NVnhJaVErcFhXcDJFUzZhbVJBcUs1Y3FhVmdUUHEzOFNOVmNXd2trNmwrYlNkK0J5ZDZzOExOSm1DaDV3L3pBSHlqQStCOGVBOUJkSkVqU0hLTkFyaVJuRXFRckpaTUtDUkZ1YloyemdmbW94YnYxc1YvNXZ4emJGL0IxNFp3&traceId=1",
-                "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/ipad-finish-select-202503-silver-wifi_FMT_WHH?wid=1280&hei=720&fmt=p-jpg&qlt=80&.v=aHYyeWZ6TVBzTWw5WlZ2bFJCZno2aG1NVnhJaVErcFhXcDJFUzZhbVJBcUs1Y3FhVmdUUHEzOFNOVmNXd2trNmwrYlNkK0J5ZDZzOExOSm1DaDV3L3pBSHlqQStCOGVBOUJkSkVqU0hLTkFyaVJuRXFRckpaTUtDUkZ1YloyemdmbW94YnYxc1YvNXZ4emJGL0IxNFp3&traceId=1",
-                "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/ipad-finish-select-202503-silver-wifi_FMT_WHH?wid=1280&hei=720&fmt=p-jpg&qlt=80&.v=aHYyeWZ6TVBzTWw5WlZ2bFJCZno2aG1NVnhJaVErcFhXcDJFUzZhbVJBcUs1Y3FhVmdUUHEzOFNOVmNXd2trNmwrYlNkK0J5ZDZzOExOSm1DaDV3L3pBSHlqQStCOGVBOUJkSkVqU0hLTkFyaVJuRXFRckpaTUtDUkZ1YloyemdmbW94YnYxc1YvNXZ4emJGL0IxNFp3&traceId=1"
+                "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/ipad-finish-select-202503-pink-wifi_FMT_WHH?wid=1280&hei=720&fmt=p-jpg&qlt=80&.v=aHYyeWZ6TVBzTWw5WlZ2bFJCZno2aXd3Q2pKamtFTVV6Wk1KTjNUcUZtK3RpY0gzeTdwdlpIKzg4NWM0UWFDYzhPR21TUjBtZytxMXNhbXdjN2ZpMXEwekI5ZWpRa0o2WWdVYzdzTUdBdFVuVlFobTNwZkVmUEtVMlJZeExLOWo&traceId=1",
+                "https://www.youtube.com/embed/QGgpVmHMBuU?si=zUdJJ7xyCF2JuIJ8"
             ]
         },
         perfume: {
@@ -207,8 +207,8 @@ if (orderForm) {
             description: "Classic fragrance for men and women. 100ml bottle.",
             images: [
                 "https://www.chanel.com/images//t_one/t_fragrance//q_auto:good,f_auto,fl_lossy,dpr_1.1/w_1920/bleu-de-chanel-parfum-spray-3-4fl-oz--packshot-default-107180-9564892200990.jpg",
-                "https://www.chanel.com/images//t_one/t_fragrance//q_auto:good,f_auto,fl_lossy,dpr_1.1/w_1920/bleu-de-chanel-parfum-spray-3-4fl-oz--packshot-default-107180-9564892200990.jpg",
-                "https://www.chanel.com/images//t_one/t_fragrance//q_auto:good,f_auto,fl_lossy,dpr_1.1/w_1920/bleu-de-chanel-parfum-spray-3-4fl-oz--packshot-default-107180-9564892200990.jpg"
+                "https://media.johnlewiscontent.com/i/JohnLewis/238276957?fmt=auto&$background-off-white$",
+                "https://www.youtube.com/embed/3pbpWAt1Dxs?si=DmS3pRoSLH9Ps3Km"
             ]
         },
         speaker: {
@@ -218,8 +218,8 @@ if (orderForm) {
             description: "Premium wireless speaker with exceptional sound quality. 360-degree sound experience.",
             images: [
                 "https://api.media-line.ch/site/assets/files/4392/beosound_2_3rd_gen__0023.1200x0.png",
-                "https://api.media-line.ch/site/assets/files/4392/beosound_2_3rd_gen__0023.1200x0.png",
-                "https://www.youtube.com/embed/L16hWlMvbH4"  // Speaker demo video
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzbql-DH1ier7s8fIvhJ7SgdUIbbYpt7ikQA&s",
+                "https://www.youtube.com/embed/Dum8CpM4-wY?si=gqqFQusgImeb_AbP"  // Speaker demo video
             ]
         }
     };

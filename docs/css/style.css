@@ -168,8 +168,10 @@ h2 {
     opacity: 0.9;
 }
 
+
+
 .product-card h3 {
-    margin: 5px 0;
+    margin: 0;
     font-size: 1.1em;
     color: #333;
 }
@@ -177,12 +179,13 @@ h2 {
 .price {
     color: #1a237e;
     font-weight: bold;
-    margin: 5px 0;
+    margin: 0;
+    font-size: 1.1em;
 }
 
 .description {
     color: #666;
-    margin: 5px 0;
+    margin: 0;
     font-size: 0.9em;
     line-height: 1.4;
     height: 4em;

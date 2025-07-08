@@ -6,7 +6,7 @@
 - **Font-Family**: `Arial, sans-serif`
 - **Einsatzbereiche**: Haupttexte, Buttons, Navigation
 
-### **Sekundäre Schriftart** *(optional)*
+### **Sekundäre Schriftart** 
 - **Font-Family**: `Georgia, serif`
 - **Einsatzbereiche**: Zitate, Produktbeschreibungen
 
